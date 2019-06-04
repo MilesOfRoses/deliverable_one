@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
+
+h1 {
+	margin: 0;
+	font-weight: 600;
+	font-size: 1.5em;
+}
+
+nav a, a:visited {
+	color: #88898B;
+	font-size: 1.2em;
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+* {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+h2 {
+	margin-top: 1.5em;
+	font-weight: 600;
+	font-size: 2.2em;
+}
+
+body {
+	background-color: #F0ECEE;
+	background-size: auto;
+	margin: .5em 1em 0 1em;
+}
+
+#redText {
+	color: #FF4850;
+}
+
+p {
+	color: #88898B;
+	font-size: .9em;
+	font-weight: 400;
+}
+
+#contactUs, #findOutHow {
+	background-color: #FF4850;
+	display: flex;
+	justify-content: center;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	height: 25px;
+}
+
+#contactUs:hover, #findOutHow:hover {
+	background-color: #CCC;
+}
+
+#contactUs a, #findOutHow a {
+	color: #fff;
+	display: flex;
+	align-items: center;
+}
+
+#contactUs {
+	margin-top: 1.2em;
+}
+
+ul {
+	padding: 0;
+}
+
+@media (min-width: 768px) {
+
+	body {
+		background-image: url("../bulldog.jpg");
+		background-repeat:   no-repeat;
+		background-size: 100%;
+	}
+
+	body {
+		padding: 1em;
+	}
+
+	nav ul {
+		display: flex;
+		justify-content: flex-end;
+		margin: -1.8em;
+	}
+
+	nav li {
+		padding: 0 .8em;
+	}
+
+	#contactUs {
+	margin-top: -.6em;
+
+	}
+
+	#textColumn{
+		width: 40%;
+	}
+
+	#breakLine {
+		display: block;
+	}
+
+	#findOutHow {
+		width: 10em;
+		font-size: 1.3em;
+		margin-top: 2em;
+	}
+
+	h1{
+		font-size:2em;
+	}
+	h2{
+		margin-top: 6em;
+		font-size: 2em;
+	}
+	#textColumn p{
+		font-size: 1.2em;
+	}
+	
+}
